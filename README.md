@@ -22,7 +22,7 @@ _$ python3 dCh-sim-learn-4-fs.py [-h] -f FILENAME [-k ADDITIVITY] [-s SIMILARITY
 
 **iris-4-fs-euc-cos-sim.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using the Euclidean and the Cosine similarity measures on the **datasets/fuzzy-iris.csv** dataset.
 
-**iris-4-fs-unif.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using each similarity measure in _{S1, S2, S3}_ with the uniform probability measure on the **datasets/fuzzy-iris.csv** dataset.
+**iris-4-fs-unif.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using each similarity measure in _{S1, S2, S3}_ parameterized by the uniform probability measure on the **datasets/fuzzy-iris.csv** dataset.
 
 **figures-AVG-pp.py**, **figures-AVG-p1.py**, **figures-AVG-1p.py**, **figures-unif.py**: Plot the graphs of mean accuracy in the 4 folds as a function of _p_.
 
