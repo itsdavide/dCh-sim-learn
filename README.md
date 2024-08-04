@@ -10,7 +10,7 @@ in Computer Science**, Springer, pp. 386–399, 2023.
 
 # Requirements
 The learning task is carried out through the Particle Swarm Optimization (PSO) technique.
-The code requires the PySwarms library available at: https://pypi.org/project/pyswarm/.
+The code requires the _PySwarms_ library available at: https://pypi.org/project/pyswarm/.
 
 # Datasets
 The file **datasets/fuzzy-iris.csv** is a fuzzified version of the classical Iris dataset.
