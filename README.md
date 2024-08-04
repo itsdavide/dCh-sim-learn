@@ -1,5 +1,5 @@
 # dCh-sim-learn
-Similarity learning code for the paper:
+Fuzzy similarity learning code for the paper:
     
 C. Marsala, D. Petturiti, and B. Vantaggi.
 _Adding Semantics to Fuzzy Similarity Measures Through the d-Choquet Integral_.
