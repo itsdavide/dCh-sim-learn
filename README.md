@@ -20,7 +20,7 @@ The file **datasets/fuzzy-iris.csv** is a fuzzified version of the classical Iri
 
 _$ python3 dCh-sim-learn-4-fs.py [-h] -f FILENAME [-k ADDITIVITY] [-s SIMILARITY] [-d DISSIMILARITY] [-i ITERATIONS]_
 
-**iris-4-fs-euc-cos-sim.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using the Euclidean and the Cosine similarity measure on the **fuzzy-iris.csv** dataset.
+**iris-4-fs-euc-cos-sim.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using the Euclidean and the Cosine similarity measures on the **fuzzy-iris.csv** dataset.
 
 **iris-4-fs-unif.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using each similarity measure in _{S1, S2, S3}_ with the uniform probability measure on the **fuzzy-iris.csv** dataset.
 
