@@ -13,7 +13,7 @@ The learning task is carried out through the Particle Swarm Optimization (PSO) t
 The code requires the PySwarms library available at: https://pypi.org/project/pyswarm/.
 
 # Datasets
-The file **fuzzy-iris.csv** is a fuzzified version of the classical Iris dataset.
+The file **datasets/fuzzy-iris.csv** is a fuzzified version of the classical Iris dataset.
 
 # File inventory
 **dCh-sim-learn-4-fs.py**: Performs the similarity learning with a stratified 4-fold cross validation through PSO for different values of _p_, by optimizing the Leave One Out (LOO) objective function, for a fixed choice of restricted dissimilarity function in _{pp, p1, 1p}_ and similarity measure in _{S1, S2, S3}_. The code must be exectude at the command line by writing
