@@ -10,14 +10,20 @@ in Computer Science**, Springer, pp. 386–399, 2023.
 
 # Requirements
 The learning task is carried out through the Particle Swarm Optimization (PSO) technique.
-The code requires the PySwarms library available at:[https://pypi.org/project/pyswarm/](https://pypi.org/project/pyswarms/).
+The code requires the PySwarms library available at: https://pypi.org/project/pyswarm/.
 
 # Datasets
-The file fuzzy-iris.csv is a fuzzified version of the classical Iris dataset.
+The file **fuzzy-iris.csv** is a fuzzified version of the classical Iris dataset.
 
 # File inventory
-**dCh-sim-learn-4-fs.py**: Performs the similarity learning through PSO by optimizing the Leave One Out (LOO) objective function, for a choice of restricted dissimilarity function in {pp, p1, 1p} and similarity measure in {S1, S2, S3}. The file must be exectude at the command line by writing
+**dCh-sim-learn-4-fs.py**: Performs the similarity learning with a stratified 4-fold cross validation through PSO for different values of _p_, by optimizing the Leave One Out (LOO) objective function, for a fixed choice of restricted dissimilarity function in _{pp, p1, 1p}_ and similarity measure in _{S1, S2, S3}_. The code must be exectude at the command line by writing
 
-_dCh-sim-learn-4-fs.py [-h] -f FILENAME [-k ADDITIVITY] [-s SIMILARITY] [-d DISSIMILARITY] [-i ITERATIONS]_
+_$ python3 dCh-sim-learn-4-fs.py [-h] -f FILENAME [-k ADDITIVITY] [-s SIMILARITY] [-d DISSIMILARITY] [-i ITERATIONS]_
+
+**iris-4-fs-euc-cos-sim.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using the Euclidean and the Cosine similarity measure on the **fuzzy-iris.csv** dataset.
+
+**iris-4-fs-unif.py**: Computes the Leave One Out (LOO) objective function with a stratified 4-fold cross validation for different values of _p_, using each similarity measure in _{S1, S2, S3}_ with the uniform probability measure on the **fuzzy-iris.csv** dataset.
+
+**figures-AVG-pp.py**, **figures-AVG-p1.py**, **figures-AVG-1p.py**, **figures-unif.py**: Plot the graphs of mean accuracy in the 4 folds as a function of _p_.
 
 
